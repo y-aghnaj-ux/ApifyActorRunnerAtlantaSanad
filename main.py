@@ -45,7 +45,7 @@ class MainApp:
         self.api_token_label.pack(pady=10)
         self.api_token_entry = ctk.CTkEntry(self.app, placeholder_text=shv.default_token, width=250)
         self.api_token_entry.pack(padx=300, pady=10)
-        ctk.CTkLabel(self.app, text="Output Type:").pack(pady=5)
+        ctk.CTkLabel(self.app, text="Choose apify key").pack(pady=5)
         self.api_token_select = ctk.CTkComboBox(self.app, values=shv.default_token_list)
         self.api_token_select.pack(pady=5)
 

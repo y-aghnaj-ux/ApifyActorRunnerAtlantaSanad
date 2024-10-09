@@ -1,5 +1,5 @@
-default_token = "apify_api_HHHGW1cu1T1NdtyhdfKZNjZ1OKxsAb09U30J"
-default_token_list = ["apify_api_HHHGW1cu1T1NdtyhdfKZNjZ1OKxsAb09U30J","apify_api_t6keq5nqZlewnVPJeC48seYUtPm6xP1yfzAh"]
+default_token = "<Your Apify token here>" #Please consult the readme or contact me for more detail
+default_token_list = []
 if default_token not in default_token_list:
     default_token_list.append(default_token)
 
